@@ -1,5 +1,7 @@
 package good.payment;
 
-interface Refundable {
-    void refund(double amount);
+import java.math.BigDecimal;
+
+public interface Refundable {
+    void refund(BigDecimal amount);
 }

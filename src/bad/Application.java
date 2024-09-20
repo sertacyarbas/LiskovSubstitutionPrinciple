@@ -12,7 +12,7 @@ public class Application {
         creditCardPayment.refund(BigDecimal.valueOf(100));
 
         BitcoinPayment bitcoinPayment = new BitcoinPayment();
-        bitcoinPayment.processPayment(BigDecimal.valueOf(100));
-        bitcoinPayment.refund(BigDecimal.valueOf(100));
+        bitcoinPayment.processPayment(BigDecimal.valueOf(0.0025));
+        bitcoinPayment.refund(BigDecimal.valueOf(0.0025));
     }
 }
