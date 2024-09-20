@@ -16,7 +16,7 @@ Proje, iki ana klasör altında organize edilmiştir:
 
 - **bad**: Bu klasörde, `BitcoinPayment.java` sınıfı Payment sınıfından türer, ancak iade edebilme yeteneği yoktur ve refund metodu çağırıldığında hata fırlatılır. Bu yapı, LSP'yi ihlal eden bir örnek teşkil eder.
   
-- **good**: Bu klasörde, LSP'ye uygun olarak yeniden yapılandırılmış bir yapıyı bulabilirsiniz. İade edebilme yeteneği Refundable interface'ine taşınmıştır. Sadece CreditCardPayment sınıfı bu interface'i implement eder.
+- **good**: Bu klasörde, LSP'ye uygun olarak yeniden yapılandırılmış bir yapıyı bulabilirsiniz. İade edebilme yeteneği RefundablePayment abstract sınıfına taşınmıştır. Sadece CreditCardPayment sınıfı bu sınıftan türer.
 
 ## Nasıl Çalıştırılır
 
