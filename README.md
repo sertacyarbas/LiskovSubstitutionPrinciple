@@ -10,7 +10,7 @@ Proje, iki ana klasör altında organize edilmiştir:
 - **good**: LSP prensibine uygun olarak yeniden yapılandırılmış yapıyı temsil eder.
 
 ### Klasör ve Dosya Yapısı
-![image](https://github.com/user-attachments/assets/ba0dff53-98b6-4b0f-9af0-ecb5fb6bd956)
+![image](https://github.com/user-attachments/assets/f0f70964-85b2-4742-9bf9-76c027642a16)
 
 ### Klasörlerin Açıklamaları
 
